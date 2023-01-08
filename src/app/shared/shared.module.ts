@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EmailInputComponent } from './components/inputs/email-input/email-input.component';
+import { AngularMaterialModule } from '../angular-material/angular-material.module';
 
 
 
@@ -9,7 +10,11 @@ import { EmailInputComponent } from './components/inputs/email-input/email-input
     EmailInputComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AngularMaterialModule
+  ],
+  exports: [
+    EmailInputComponent
   ]
 })
 export class SharedModule { }
