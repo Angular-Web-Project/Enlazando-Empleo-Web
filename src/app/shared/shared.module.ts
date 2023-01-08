@@ -2,12 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EmailInputComponent } from './components/inputs/email-input/email-input.component';
 import { AngularMaterialModule } from '../angular-material/angular-material.module';
+import { HomeToolbarComponent } from './components/toolbars/home-toolbar/home-toolbar.component';
 
 
 
 @NgModule({
   declarations: [
-    EmailInputComponent
+    EmailInputComponent,
+    HomeToolbarComponent
   ],
   imports: [
     CommonModule,
