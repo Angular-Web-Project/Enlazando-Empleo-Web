@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { MatInputModule } from '@angular/material/input';
+
 
 @NgModule({
   declarations: [],
@@ -10,11 +12,13 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     CommonModule,
     MatFormFieldModule,
     ReactiveFormsModule,
+    MatInputModule,
     MatToolbarModule
   ],
   exports: [
     MatFormFieldModule,
     ReactiveFormsModule,
+    MatInputModule,
     MatToolbarModule
   ]
 })
