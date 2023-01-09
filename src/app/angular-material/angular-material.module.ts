@@ -2,8 +2,10 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
-import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatInputModule } from '@angular/material/input';
+import { MatCardModule } from '@angular/material/card';
+import { MatProgressBarModule } from '@angular/material/progress-bar'
+import {MatDividerModule} from '@angular/material/divider';
 
 
 @NgModule({
@@ -13,13 +15,17 @@ import { MatInputModule } from '@angular/material/input';
     MatFormFieldModule,
     ReactiveFormsModule,
     MatInputModule,
-    MatToolbarModule
+    MatCardModule,
+    MatProgressBarModule,
+    MatDividerModule
   ],
   exports: [
     MatFormFieldModule,
     ReactiveFormsModule,
     MatInputModule,
-    MatToolbarModule
+    MatCardModule,
+    MatProgressBarModule,
+    MatDividerModule
   ]
 })
 export class AngularMaterialModule { }

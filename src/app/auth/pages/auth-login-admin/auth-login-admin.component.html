@@ -1,2 +1,17 @@
 <p>auth-login-admin works!</p>
-<app-login-admin-form></app-login-admin-form>
+
+<mat-card class="example-card">
+  <mat-card-subtitle>Bienvenido Adminstrador</mat-card-subtitle>
+  <mat-card-title>Iniciar Sesión</mat-card-title>
+  <mat-card-content>
+    <p>{{ longText }}</p>
+    <app-login-admin-form></app-login-admin-form>
+  </mat-card-content>
+  <mat-divider inset></mat-divider>
+  <mat-card-actions>
+    <button mat-button>Iniciar Sesión</button>
+  </mat-card-actions>
+  <mat-card-footer>
+    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+  </mat-card-footer>
+</mat-card>
