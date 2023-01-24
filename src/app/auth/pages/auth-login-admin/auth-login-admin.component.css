@@ -1,6 +1,5 @@
 .login-admin-container {
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
@@ -9,23 +8,16 @@
   justify-content: center;
   border-radius: 25px;
   background-color: rgb(200, 233, 246);
-  padding: 80px;
+  padding: 20px;
 }
 
 .login-header {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
-}
-
-.login-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .login-actions, .login-footer {
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
 }
