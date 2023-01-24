@@ -1,7 +1,9 @@
 .login-card {
-    max-width: 500px;
-    border-radius: 25px;
-    background-color: rgb(152, 216, 241);
-  }
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  border-radius: 25px;
+  background-color: rgb(200, 233, 246);
+}
   
   
