@@ -1,0 +1,24 @@
+.login-employer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .login-card {
+    justify-content: center;
+    border-radius: 25px;
+    background-color: rgb(169, 245, 159);
+    padding: 20px;
+  }
+  
+  .login-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 20px 0;
+  }
+  
+  .login-actions {
+    display: flex;
+    justify-content: flex-end;
+  }

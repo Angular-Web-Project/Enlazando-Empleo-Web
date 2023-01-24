@@ -1,5 +1,5 @@
 <div class="example-container">
-  <mat-form-field appearance="outline">
+  <mat-form-field appearance="outline" class="input-size">
     <mat-label>Correo electrónico</mat-label>
     <input matInput placeholder="user@gmail.com" [formControl]="email" required>
     <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
