@@ -5,6 +5,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatButtonModule} from '@angular/material/button';
+
 
 
 @NgModule({
@@ -15,14 +17,16 @@ import {MatDividerModule} from '@angular/material/divider';
     ReactiveFormsModule,
     MatInputModule,
     MatCardModule,
-    MatDividerModule
+    MatDividerModule,
+    MatButtonModule
   ],
   exports: [
     MatFormFieldModule,
     ReactiveFormsModule,
     MatInputModule,
     MatCardModule,
-    MatDividerModule
+    MatDividerModule,
+    MatButtonModule
   ]
 })
 export class AngularMaterialModule { }
