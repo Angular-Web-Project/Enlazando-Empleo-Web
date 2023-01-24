@@ -1,7 +1,7 @@
 .login-card {
   display: flex;
-  align-items: center;
-  max-width: 500px;
+  flex-direction: column;
+  justify-content: center;
   border-radius: 25px;
   background-color: rgb(200, 233, 246);
 }

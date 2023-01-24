@@ -5,6 +5,8 @@ import { AngularMaterialModule } from '../angular-material/angular-material.modu
 import { EmailInputComponent } from './components/inputs/email-input/email-input.component';
 import { HomeToolbarComponent } from './components/toolbars/home-toolbar/home-toolbar.component';
 import { LoginButtonComponent } from './components/buttons/login-button/login-button.component';
+import { CancelButtonComponent } from './components/buttons/cancel-button/cancel-button.component';
+import { PasswordInputComponent } from './components/inputs/password-input/password-input.component';
 
 
 
@@ -12,7 +14,9 @@ import { LoginButtonComponent } from './components/buttons/login-button/login-bu
   declarations: [
     EmailInputComponent,
     HomeToolbarComponent,
-    LoginButtonComponent
+    LoginButtonComponent,
+    CancelButtonComponent,
+    PasswordInputComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +24,9 @@ import { LoginButtonComponent } from './components/buttons/login-button/login-bu
   ],
   exports: [
     EmailInputComponent,
-    LoginButtonComponent
+    LoginButtonComponent,
+    CancelButtonComponent,
+    PasswordInputComponent
   ]
 })
 export class SharedModule { }
