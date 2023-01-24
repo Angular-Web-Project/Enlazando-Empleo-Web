@@ -4,7 +4,6 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
-import { MatProgressBarModule } from '@angular/material/progress-bar'
 import {MatDividerModule} from '@angular/material/divider';
 
 
@@ -16,7 +15,6 @@ import {MatDividerModule} from '@angular/material/divider';
     ReactiveFormsModule,
     MatInputModule,
     MatCardModule,
-    MatProgressBarModule,
     MatDividerModule
   ],
   exports: [
@@ -24,7 +22,6 @@ import {MatDividerModule} from '@angular/material/divider';
     ReactiveFormsModule,
     MatInputModule,
     MatCardModule,
-    MatProgressBarModule,
     MatDividerModule
   ]
 })
