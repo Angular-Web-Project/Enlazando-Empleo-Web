@@ -7,6 +7,8 @@ import { LoginAdminFormComponent } from './components/login-admin-form/login-adm
 import { AngularMaterialModule } from '../angular-material/angular-material.module';
 import { AuthLoginEmployeeComponent } from './pages/auth-login-employee/auth-login-employee.component';
 import { AuthLoginEmployerComponent } from './pages/auth-login-employer/auth-login-employer.component';
+import { AuthForgetPasswordComponent } from './pages/auth-forget-password/auth-forget-password.component';
+import { AuthResetPasswordComponent } from './pages/auth-reset-password/auth-reset-password.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { AuthLoginEmployerComponent } from './pages/auth-login-employer/auth-log
     AuthLoginAdminComponent,
     LoginAdminFormComponent,
     AuthLoginEmployeeComponent,
-    AuthLoginEmployerComponent
+    AuthLoginEmployerComponent,
+    AuthForgetPasswordComponent,
+    AuthResetPasswordComponent
   ],
   imports: [
     CommonModule,

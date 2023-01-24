@@ -7,6 +7,8 @@ import { HomeToolbarComponent } from './components/toolbars/home-toolbar/home-to
 import { LoginButtonComponent } from './components/buttons/login-button/login-button.component';
 import { CancelButtonComponent } from './components/buttons/cancel-button/cancel-button.component';
 import { PasswordInputComponent } from './components/inputs/password-input/password-input.component';
+import { SendButtonComponent } from './components/buttons/send-button/send-button.component';
+import { ResetButtonComponent } from './components/buttons/reset-button/reset-button.component';
 
 
 
@@ -16,7 +18,9 @@ import { PasswordInputComponent } from './components/inputs/password-input/passw
     HomeToolbarComponent,
     LoginButtonComponent,
     CancelButtonComponent,
-    PasswordInputComponent
+    PasswordInputComponent,
+    SendButtonComponent,
+    ResetButtonComponent
   ],
   imports: [
     CommonModule,
@@ -26,7 +30,9 @@ import { PasswordInputComponent } from './components/inputs/password-input/passw
     EmailInputComponent,
     LoginButtonComponent,
     CancelButtonComponent,
-    PasswordInputComponent
+    PasswordInputComponent,
+    SendButtonComponent,
+    ResetButtonComponent
   ]
 })
 export class SharedModule { }
