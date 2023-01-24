@@ -1,9 +1,18 @@
-.login-card {
+.login-admin-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login-card {
   border-radius: 25px;
   background-color: rgb(200, 233, 246);
 }
-  
+
+.login-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
   
