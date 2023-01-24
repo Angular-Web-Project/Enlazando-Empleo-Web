@@ -6,13 +6,26 @@
 }
 
 .login-card {
+  justify-content: center;
   border-radius: 25px;
   background-color: rgb(200, 233, 246);
+  padding: 80px;
 }
 
-.login-buttons {
+.login-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.login-actions, .login-footer {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
-  

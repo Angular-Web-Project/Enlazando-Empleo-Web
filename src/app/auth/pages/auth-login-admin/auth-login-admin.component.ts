@@ -7,8 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AuthLoginAdminComponent {
 
-  adminContent = `Login exclusivo para el uso del Administrador del sistema`;
-
   adminFooter = 'admin 2023';
 
 }
