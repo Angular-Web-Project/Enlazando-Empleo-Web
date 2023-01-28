@@ -1,12 +1,24 @@
 .login-admin-container {
   display: flex;
+  justify-content: center;
+}
+
+.login-header{
+  text-align: center;
+  padding: 0px 50px;
 }
 
 .login-card {
+  margin-top: 5%;
   max-width: 300px;
 }
 
 .login-actions  {
+  text-align: center;
   display: flex;
   flex-direction: column;
+}
+
+.login-actions .item {
+  margin-bottom: 15px;
 }
