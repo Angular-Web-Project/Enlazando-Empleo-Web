@@ -15,12 +15,12 @@ import { ResetButtonComponent } from './components/buttons/reset-button/reset-bu
 @NgModule({
   declarations: [
     EmailInputComponent,
-    HomeToolbarComponent,
     LoginButtonComponent,
     CancelButtonComponent,
     PasswordInputComponent,
     SendButtonComponent,
-    ResetButtonComponent
+    ResetButtonComponent,
+    HomeToolbarComponent
   ],
   imports: [
     CommonModule,
@@ -32,7 +32,8 @@ import { ResetButtonComponent } from './components/buttons/reset-button/reset-bu
     CancelButtonComponent,
     PasswordInputComponent,
     SendButtonComponent,
-    ResetButtonComponent
+    ResetButtonComponent,
+    HomeToolbarComponent
   ]
 })
 export class SharedModule { }
