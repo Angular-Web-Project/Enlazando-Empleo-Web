@@ -1,0 +1,25 @@
+.register-employee-container {
+  display: flex;
+  justify-content: center;
+}
+  
+.register-employee-card {
+  margin-top: 5%;
+  max-width: 300px;
+}
+
+.register-employee-header{
+  text-align: center;
+  padding: 0px 50px;
+}
+
+
+.register-employee-actions  {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-employee-actions .item {
+  margin-bottom: 15px;
+}
