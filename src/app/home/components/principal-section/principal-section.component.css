@@ -1,0 +1,14 @@
+.principal-section-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.principal-section-header {
+    text-align: center;
+}
+
+.principal-section-content .img {
+    width: 100%;
+}
