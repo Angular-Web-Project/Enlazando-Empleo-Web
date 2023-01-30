@@ -12,6 +12,11 @@
     justify-content: space-around;
     padding: 25px 0px;
   }
+
+  .subtitle {
+    padding-top: 10%;
+    max-width: 250px;
+  }
   
   .section-content .img {
     width: 200px;
