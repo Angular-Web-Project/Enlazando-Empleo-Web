@@ -10,7 +10,7 @@ import { AuthTypeUserComponent } from 'src/app/auth/pages/auth-type-user/auth-ty
 export class HomeToolbarComponent {
 
   constructor(public dialog: MatDialog) { }
-
+  
   openTypeUser() {
     this.dialog.open(AuthTypeUserComponent);
   }
