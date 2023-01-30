@@ -12,6 +12,10 @@
   padding: 25px 0px;
 }
 
+.subtitle {
+  max-width: 250px;
+}
+
 .section-content .img {
   width: 200px;
 }
