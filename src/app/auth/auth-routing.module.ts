@@ -6,7 +6,6 @@ import { AuthLoginEmployeeComponent } from './pages/auth-login-employee/auth-log
 import { AuthLoginEmployerComponent } from './pages/auth-login-employer/auth-login-employer.component';
 import { AuthForgetPasswordComponent } from './pages/auth-forget-password/auth-forget-password.component';
 import { AuthResetPasswordComponent } from './pages/auth-reset-password/auth-reset-password.component';
-import { AuthTypeUserComponent } from './pages/auth-type-user/auth-type-user.component';
 
 const routes: Routes = [
   {
@@ -26,9 +25,6 @@ const routes: Routes = [
       },
       {
         path: 'reset', component: AuthResetPasswordComponent
-      },
-      {
-        path: 'type-user', component: AuthTypeUserComponent
       }
     ]
   }
