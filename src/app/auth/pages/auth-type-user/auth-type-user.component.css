@@ -3,3 +3,13 @@
     flex-direction: column;
     justify-content: space-around;
 }
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item {
+    margin-top: 10%;
+}
