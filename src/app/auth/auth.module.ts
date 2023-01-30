@@ -9,6 +9,7 @@ import { AuthLoginEmployeeComponent } from './pages/auth-login-employee/auth-log
 import { AuthLoginEmployerComponent } from './pages/auth-login-employer/auth-login-employer.component';
 import { AuthForgetPasswordComponent } from './pages/auth-forget-password/auth-forget-password.component';
 import { AuthResetPasswordComponent } from './pages/auth-reset-password/auth-reset-password.component';
+import { AuthTypeUserComponent } from './pages/auth-type-user/auth-type-user.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { AuthResetPasswordComponent } from './pages/auth-reset-password/auth-res
     AuthLoginEmployeeComponent,
     AuthLoginEmployerComponent,
     AuthForgetPasswordComponent,
-    AuthResetPasswordComponent
+    AuthResetPasswordComponent,
+    AuthTypeUserComponent
   ],
   imports: [
     CommonModule,

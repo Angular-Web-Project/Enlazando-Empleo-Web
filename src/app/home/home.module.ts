@@ -23,7 +23,8 @@ import { RegisterEmployerCardComponent } from './components/register-employer-ca
     CommonModule,
     HomeRoutingModule, 
     AngularMaterialModule,
-    SharedModule
+    SharedModule,
+    
   ]
 })
 export class HomeModule { }
