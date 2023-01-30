@@ -13,12 +13,10 @@
   max-width: 300px;
 }
 
-.login-actions  {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-}
-
 .login-actions .item {
-  margin-bottom: 15px;
+  width: 90px;
+  height: 35px;
+  float: left;
+  position: relative;
+  overflow: hidden;
 }
