@@ -5,11 +5,15 @@
 
 .register-employee-card {
   display: flex;
-  flex-wrap: wrap;
   width: 95%;
   align-items: center;
   justify-content: space-around;
   padding: 25px 0px;
+}
+
+.main-employee {
+  display: flex;
+  flex-direction: column;
 }
 
 .subtitle {
@@ -21,6 +25,11 @@
   width: 200px;
 }
 
-.register-employee-actions  {
-  text-align: center;
+.register-button {
+  margin-left: 20%;
+  width: 190px;
+  height: 35px;
+  float: left;
+  position: relative;
+  overflow: hidden;
 }

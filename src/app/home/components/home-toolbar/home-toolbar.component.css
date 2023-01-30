@@ -1,3 +1,21 @@
 .example-spacer {
-    flex: 1 1 auto;
-  }
+  flex: 1 1 auto;
+}
+
+.logo {
+  margin-top: 2%;
+  margin-right: 3%;
+}
+
+
+.logo-img {
+  width: 45px;
+}
+
+.login-button {
+  width: 90px;
+  height: 35px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
