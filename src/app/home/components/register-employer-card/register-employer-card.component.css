@@ -1,0 +1,21 @@
+.employer-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .register-employer-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0px;
+  }
+  
+  .section-content .img {
+    width: 200px;
+  }
+  
+  .register-employer-actions  {
+    text-align: center;
+  }
