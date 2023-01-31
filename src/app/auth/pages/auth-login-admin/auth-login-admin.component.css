@@ -3,14 +3,14 @@
   justify-content: center;
 }
 
-.login-header{
-  text-align: center;
-  padding: 0px 50px;
-}
-
 .login-card {
   margin-top: 5%;
   max-width: 300px;
+}
+
+.login-header{
+  text-align: center;
+  padding: 0px 50px;
 }
 
 .login-actions {

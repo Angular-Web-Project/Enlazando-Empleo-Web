@@ -1,12 +1,21 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { AdminHomeComponent } from './pages/admin-home/admin-home.component';
+import { AngularMaterialModule } from '../angular-material/angular-material.module';
+import { SharedModule } from '../shared/shared.module';
+import { AdminRoutingModule } from './admin-routing.module';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    AdminHomeComponent
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    AdminRoutingModule,
+    AngularMaterialModule,
+    SharedModule
   ]
 })
 export class AdminModule { }
